@@ -1,6 +1,6 @@
-defmodule Combinatorics do
+defmodule CombinatorEx do
   @moduledoc """
-  Documentation for `Combinatorics`.
+  Documentation for `CombinatorEx`.
   """
 
   @doc """
@@ -10,7 +10,7 @@ defmodule Combinatorics do
 
   ## Examples
 
-      iex> Combinatorics.cross(["hello","goodbye"], ["world","friend"])
+      iex> CombinatorEx.cross(["hello","goodbye"], ["world","friend"])
       ...> |> Enum.map(&Enum.join/1)
       [ "helloworld", "hellofriend", 
       "goodbyeworld", "goodbyefriend", ]

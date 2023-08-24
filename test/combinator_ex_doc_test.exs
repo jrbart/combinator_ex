@@ -1,6 +1,6 @@
-defmodule CombinatoricsDocTest do
+defmodule CombinatorExDocTest do
   use ExUnit.Case
 
-  doctest Combinatorics
+  doctest CombinatorEx
 
 end

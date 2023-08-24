@@ -1,6 +1,6 @@
-defmodule CombinatoricsTest do
+defmodule CombinatorExTest do
   use ExUnit.Case
-  import Combinatorics
+  import CombinatorEx
 
   @alpha for n <- ?a..?z, do: << n :: utf8 >>
   @numer for n <- ?0..?9, do: << n :: utf8 >>
