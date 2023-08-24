@@ -4,6 +4,8 @@
 
 ## Installation
 
+Still under construction - pre, pre release
+
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `combinatorics` to your list of dependencies in `mix.exs`:
 
