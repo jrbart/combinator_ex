@@ -18,8 +18,9 @@ defmodule CombinatorEx do
   """
 
   @type list_of_strings :: list(binary)
+  @type list_of_lists :: list(list(binary))
 
-  @spec cross(list_of_strings, list_of_strings) :: list_of_strings()
+  @spec cross(list_of_strings, list_of_strings) :: list_of_lists()
   def cross(list1,list2) do
     Enum.map(list1,fn x ->
       Enum.map(list2, fn y ->
